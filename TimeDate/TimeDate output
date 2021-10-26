@@ -1,0 +1,24 @@
+SERVER SIDE
+
+kishan@kishan25:~$ ls 
+client.c  Documents  examples.desktop  Pictures  server  Templates
+Desktop   Downloads  Music             Public    snap    Videos
+kishan@kishan25:~$ cd Dsktop
+bash: cd: Dsktop: No such file or directory
+kishan@kishan25:~$ cd Desktop
+kishan@kishan25:~/Desktop$ ls
+TCP  TimeDate  UDP
+kishan@kishan25:~/Desktop$ cd TimeDate
+kishan@kishan25:~/Desktop/TimeDate$ ls
+client.c  server.c
+kishan@kishan25:~/Desktop/TimeDate$ gcc server.c -o server
+kishan@kishan25:~/Desktop/TimeDate$ ./server
+Socket openedBinded SuccessfullyAcceptedTue Jan 26 23:16:07 2021
+
+CLIENT SIDE
+
+kishan@kishan25:~/Desktop/TimeDate$ gcc client.c -o client
+Socket is Opened
+connected successfully
+Message Read Tue Jan 26 23:16:07 2021
+kishan@kishan25:~/Desktop/TimeDate$
