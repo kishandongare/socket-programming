@@ -1,0 +1,5 @@
+kishan@kishan25:~/Desktop$ gcc uclient.c -o uclient
+kishan@kishan25:~/Desktop$ ./uclient
+Hello message sent.
+Server : Hello from server
+kishan@kishan25:~/Desktop$ 
