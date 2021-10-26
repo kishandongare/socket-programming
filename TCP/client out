@@ -1,0 +1,9 @@
+kishan@kishan25:~/Desktop/TCP$ ./client
+Socket successfully created..
+connected to the server..
+Enter the string : hello kishan
+From Server : hii
+Enter the string : good morning
+From Server : gm
+Enter the string : 
+

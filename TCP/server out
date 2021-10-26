@@ -1,0 +1,17 @@
+kishan@kishan25:~$ ls
+client.c  Desktop  Documents  Downloads  examples.desktop  Music  Pictures  Public  server  snap  Templates  Videos
+kishan@kishan25:~$ cd Desktop
+kishan@kishan25:~/Desktop$ ls
+TCP  UDP
+kishan@kishan25:~/Desktop$ cd TCP
+kishan@kishan25:~/Desktop/TCP$ ls
+client  client.c  server  server.c
+kishan@kishan25:~/Desktop/TCP$ ./server
+Socket successfully created..
+Socket successfully binded..
+Server listening..
+server acccept the client...
+From client: hello kishan
+	 To client : hii
+From client: good morning
+	 To client : gm
